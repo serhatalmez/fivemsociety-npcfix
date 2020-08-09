@@ -1,14 +1,19 @@
 # fivemturk-npcfix
 OneSync Ghost Cars &amp; NPCs fixed.
+
 [TR]
 Kurulum:
 1-fivemturk-npcfix klasörünü, resources içerisine atınız.
+
 2-server.cfg'ye 
 ensure fivemturk-npcfix 
+
 satırını giriniz.
+
 3-server.cfgnize
 
 onesync_forceMigration true
+
 set onesync_workaround763185 true
 set onesync_distanceCullVehicles true
 set onesync_forceMigration true
