@@ -16,15 +16,15 @@ Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0) -- crash yememeniz icin
 
-        -- These natives have to be called every frame.
-        SetPedDensityMultiplierThisFrame(0.0) -- npc/ped spawnlama seviyesini ayarlayın
-        SetRandomVehicleDensityMultiplierThisFrame(0.0) -- random araç spawnlama seviyesini ayarlayın
-        SetScenarioPedDensityMultiplierThisFrame(0.0, 0.0) -- senaryo pedlerini spawnlama seviyesini ayarlayın.
-        SetGarbageTrucks(false) -- Çöp kamyonu spawnı, true-false olarak düzenleyebilirsiniz.
-        SetRandomBoats(false) -- Rastgele bot spawnı, true-false olarak düzenleyebilirsiniz.
-        SetCreateRandomCops(false) -- Rastgele polis spawnı, true-false olarak düzenleyebilirsiniz.
-        SetCreateRandomCopsNotOnScenarios(false) -- Rastgele polis spawnı, true-false olarak düzenleyebilirsiniz. (Senaryoda olmayan polis pedleri için)
-        SetCreateRandomCopsOnScenarios(false) -- Rastgele polis spawnı, true-false olarak düzenleyebilirsiniz. 
+	SetRandomVehicleDensityMultiplierThisFrame(0.0) -- Rastgele araçlar (otoparktan araç çıkması vs) 
+        SetParkedVehicleDensityMultiplierThisFrame(5.0) -- Rastgele park etmiş araçlar
+        SetScenarioPedDensityMultiplierThisFrame(0.0, 0.0) -- Rastgele NPC/PEDS senaryoları
+        SetGarbageTrucks(false) -- Rastgele ortaya çıkan çöp kamyonları [true/false]
+        SetRandomBoats(false) -- Rastgele denizde/suda tekne çıkması [true/false]
+        SetCreateRandomCops(false) -- Rastgele polisler (araç/yaya)[true/false]
+        SetCreateRandomCopsNotOnScenarios(false) -- Rastgele polisler (senaryo değil)[true/false]
+        SetCreateRandomCopsOnScenarios(false) -- Rastgele polisler (senaryo)[true/false]
+        SetScenarioTypeEnabled('WORLD_VEHICLE_DRIVE_SOLO', true)
 
         if IsPedSittingInAnyVehicle(GetPlayerPed(-1)) then
 
