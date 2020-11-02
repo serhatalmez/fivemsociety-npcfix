@@ -1,7 +1,7 @@
 fx_version 'bodacious'
 games { 'gta5'}
 
-author 'Fivemturk&Almez'
+author 'Fivemsociety&Almez'
 description 'OneSync Ghost Cars & NPCs fixed.'
 version '1.0.0'
 
