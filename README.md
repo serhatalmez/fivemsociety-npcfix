@@ -3,10 +3,10 @@ OneSync Ghost Cars &amp; NPCs fixed.
 
 [TR]
 Kurulum:
-1-fivemsociety-npcfix klasörünü, resources içerisine atınız.
+1-fivem-npcfix klasörünü, resources içerisine atınız.
 
 2-server.cfg'ye 
-ensure fivemsociety-npcfix 
+ensure fivemnpcfix 
 
 satırını giriniz.
 
@@ -32,7 +32,7 @@ Installation:
 1-Download the file and put it in the "resources" directory
 
 2-Add this in your server.cfg:
- ensure fivemsociety-npcfix
+ ensure fivemnpcfix
  
 3-Add this in your server.cfg after onesync_enabled:
 
