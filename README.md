@@ -1,4 +1,4 @@
-# fivemsociety-npcfix
+# fivem-npcfix
 OneSync Ghost Cars &amp; NPCs fixed.
 
 [TR]
